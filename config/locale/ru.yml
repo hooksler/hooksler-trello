@@ -1,0 +1,27 @@
+ru:
+  trello:
+    slack:
+      user: Пользователь
+      link: Ссылка
+      go: <%{url}|%{board}>
+    card:
+      copy:  "Карточка '%{name}' скопирована на доску '%{board}'"
+      create:  "Новая карточка '%{name}' добавлена на '%{board}'"
+      delete:  "Карточка '%{name}' удалена из '%{board}'"
+      close:   "Карточка '%{name}' на '%{board}' закрыта"
+      open:    "Карточка '%{name}' на '%{board}' переоткрыта"
+      comment: "Новый комментарий в карточке '%{name}' от '%{user}'"
+      update:
+        move_to: Карточка '%{name}' перемещена из '%{before}' в '%{after}'
+    checklist:
+      create:  "Новый список '%{name}' добавлен в '%{card}'"
+      remove:  "Список '%{name}' удален из карточки '%{card}'"
+    checkitem:
+      create:  "Новая позиция '%{name}' добавлена список '%{checklist}'"
+      remove:  "Позиция '%{name}' удалена из списка '%{checklist}'"
+      checked: "Отмечена позиция '%{name}' из списка '%{checklist}'"
+      unchecked: "Снята отметка с позиции '%{name}' из списка '%{checklist}'"
+      rename: "В списке '%{checklist}' позиция '%{name}' переименована в '%{new}'"
+      convert: "Позиция '%{name}' из '%{checklist}' преобразована в карточку"
+    list:
+      create: "Новый список '%{name}' добавлен на доску '%{board}'"
