@@ -6,12 +6,13 @@ module Hooksler
         name = data['data']['list']['name']
         board = data['data']['board']['name']
         user = data['memberCreator']['fullName']
+        opts = {scope: 'trello.list', name: name, user: user, board: board}
 
         case action
           when 'update'
-            I18n.t 'update', scope: 'trello.list', name: name, user: user, board: board
+            I18n.t 'update', opts
           when 'create'
-            I18n.t 'create', scope: 'trello.list', name: name, user: user, board: board
+            I18n.t 'create', opts
         end
       end
     end
