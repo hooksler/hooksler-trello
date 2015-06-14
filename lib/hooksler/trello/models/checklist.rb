@@ -6,15 +6,15 @@ module Hooksler
         name = data['data']['checklist']['name']
         card = data['data']['card']['name']
 
-        scope = 'trello.checklist'
+        opts = {scope: 'trello.checklist', name: name, card: card}
 
         case action
           when 'remove'
-            I18n.t 'remove', scope: scope, name: name, card: card
+            I18n.t 'remove', opts
           when 'update'
-            I18n.t 'update', scope: scope, name: name, card: card
+            I18n.t 'update', opts
           when 'add'
-            I18n.t 'create', scope: scope, name: name, card: card
+            I18n.t 'create', opts
         end
       end
     end
