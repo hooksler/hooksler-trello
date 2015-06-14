@@ -7,7 +7,7 @@ module Hooksler
       require 'hooksler/trello/models/list'
 
       def self.included(base)
-        base.define_method(:dispatch) { |*args| '' }
+        base.send( :define_method, :dispatch) { |*args| '' }
 
         [Card, Checkitem, Checklist, List].each do |m|
           base.send :include, m
