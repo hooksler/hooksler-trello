@@ -1,0 +1,80 @@
+{
+  "model": {
+    "id": "23421342134214234",
+    "name": "Hooksler",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": null,
+    "pinned": false,
+    "url": "https://trello.com/b/234213421/hooksler",
+    "shortUrl": "https://trello.com/b/2134123421",
+    "prefs": {
+      "permissionLevel": "private",
+      "voting": "disabled",
+      "comments": "members",
+      "invitations": "members",
+      "selfJoin": false,
+      "cardCovers": true,
+      "cardAging": "regular",
+      "calendarFeedEnabled": false,
+      "background": "lime",
+      "backgroundColor": "#4BBF6B",
+      "backgroundImage": null,
+      "backgroundImageScaled": null,
+      "backgroundTile": false,
+      "backgroundBrightness": "unknown",
+      "canBePublic": true,
+      "canBeOrg": true,
+      "canBePrivate": true,
+      "canInvite": true
+    },
+    "labelNames": {
+      "green": "",
+      "yellow": "",
+      "orange": "",
+      "red": "",
+      "purple": "",
+      "blue": "",
+      "sky": "",
+      "lime": "",
+      "pink": "",
+      "black": ""
+    }
+  },
+  "action": {
+    "id": "2421342141234",
+    "idMemberCreator": "12342134124214",
+    "data": {
+      "checkItem": {
+        "state": "complete",
+        "name": "item1",
+        "id": "12341234123423"
+      },
+      "checklist": {
+        "name": "Checklist",
+        "id": "213421342134"
+      },
+      "card": {
+        "shortLink": "32453425",
+        "idShort": 6,
+        "name": "Test",
+        "id": "3453532452345"
+      },
+      "board": {
+        "shortLink": "354324523",
+        "name": "Hooksler",
+        "id": "345324523452345"
+      }
+    },
+    "type": "updateCheckItemStateOnCard",
+    "date": "2015-06-15T04:29:29.313Z",
+    "memberCreator": {
+      "id": "34532453245325",
+      "avatarHash": null,
+      "fullName": "aJIeks",
+      "initials": "A",
+      "username": "ajieks"
+    }
+  }
+}

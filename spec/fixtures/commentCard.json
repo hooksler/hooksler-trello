@@ -1,0 +1,76 @@
+{
+  "model": {
+    "id": "werqweqwerqvrq3v343v3",
+    "name": "Hooksler",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "idOrganization": null,
+    "pinned": false,
+    "url": "https://trello.com/b/q234f2q3f/hooksler",
+    "shortUrl": "https://trello.com/b/fq234f23f",
+    "prefs": {
+      "permissionLevel": "private",
+      "voting": "disabled",
+      "comments": "members",
+      "invitations": "members",
+      "selfJoin": false,
+      "cardCovers": true,
+      "cardAging": "regular",
+      "calendarFeedEnabled": false,
+      "background": "lime",
+      "backgroundColor": "#4BBF6B",
+      "backgroundImage": null,
+      "backgroundImageScaled": null,
+      "backgroundTile": false,
+      "backgroundBrightness": "unknown",
+      "canBePublic": true,
+      "canBeOrg": true,
+      "canBePrivate": true,
+      "canInvite": true
+    },
+    "labelNames": {
+      "green": "",
+      "yellow": "",
+      "orange": "",
+      "red": "",
+      "purple": "",
+      "blue": "",
+      "sky": "",
+      "lime": "",
+      "pink": "",
+      "black": ""
+    }
+  },
+  "action": {
+    "id": "234234f2342q34f24fq24f23f",
+    "idMemberCreator": "f2342fq23f4q234fq2f3",
+    "data": {
+      "list": {
+        "name": "test3",
+        "id": "2f4q23f23f4234f2"
+      },
+      "board": {
+        "shortLink": "f23q4f23f4",
+        "name": "Hooksler",
+        "id": "234f2342"
+      },
+      "card": {
+        "shortLink": "f234f23",
+        "idShort": 6,
+        "name": "Test",
+        "id": "f342q4f2q3f42"
+      },
+      "text": "Comment"
+    },
+    "type": "commentCard",
+    "date": "2015-06-15T04:27:17.498Z",
+    "memberCreator": {
+      "id": "5251171de1d2eea069001888",
+      "avatarHash": null,
+      "fullName": "aJIeks",
+      "initials": "A",
+      "username": "ajieks"
+    }
+  }
+}

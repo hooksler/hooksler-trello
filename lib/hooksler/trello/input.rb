@@ -6,6 +6,8 @@ require 'hooksler/trello/models'
 
 require 'thread'
 
+require 'awesome_print'
+
 module Hooksler
   module Trello
 
@@ -66,6 +68,8 @@ module Hooksler
         return unless request.env['HTTP_X_TRELLO_WEBHOOK']
 
         payload = MultiJson.load(request.body.read)
+
+        ap payload
 
         pre_locale = I18n.locale
         I18n.locale = @locale
